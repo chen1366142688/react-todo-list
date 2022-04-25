@@ -1,0 +1,55 @@
+body{
+  background-color:aliceblue;
+}
+
+.todo-app{
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.todo-title{
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.todo-item-input{
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-filter{
+ display: flex;
+ margin: 40px 0 10px; 
+}
+
+.todo-container{
+  border: 1px solid darkslateblue;
+  border-radius: 10px;
+}
+
+.todo-container-list{
+  display: flex !important;
+  padding: 10px !important;
+  font-size: 15px;
+  border-bottom: 1px solid #333 !important;
+}
+
+.todo-container-list:last-of-type{
+  border-bottom: none !important;
+}
+
+.todo-container-list-done{
+  display: flex !important;
+  padding: 10px !important;
+  font-size: 15px;
+  border-bottom: 1px solid #333 !important;
+  background-color: #999;
+  text-decoration: line-through;
+}
+
+
+
+.todo-itme-operate{
+
+}
